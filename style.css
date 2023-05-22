@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f5ecec;
+    background-color: #f8e4e4;
 }
 
 .container {
@@ -94,5 +94,29 @@ body {
 .twitter-share-button:hover {
     color: #fff;
     background: #000;
+}
+
+@media (max-width:768px) {
+
+    body {
+        max-width: 80vh;
+    }
+
+    .card {
+        padding: 35px;
+        width: 100%;
+
+    }
+    .card-titel {
+        font-size: 20px;
+
+    }
+    .quote-text {
+        font-size: 15px;
+    }
+    .quote-author {
+        font-size: 10px;
+    }
+
 }
 
