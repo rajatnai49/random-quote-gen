@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f8e4e4;
+    background-color: #FFDB58;
 }
 
 .container {
@@ -31,7 +31,8 @@ body {
 .card-titel {
     font-size: 40px;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Stylish', sans-serif;
+    color: #000;
     
 }
 
@@ -40,21 +41,23 @@ body {
     background-color: rgb(226, 226, 218);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .quote-text {
     font-size: 30px;
     line-height: 1.5;
-    color: #211f1f;
+    color: #000;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
 .quote-author {
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     line-height: 1.5;
+    color: #555;
 }
 
 .button-container {
